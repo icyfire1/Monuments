@@ -1,0 +1,12 @@
+name: Monument
+version: 4.0.0
+description: A plugin used to generate Sacred Monuments.
+author: icyfire1
+
+main: com.icy.mon.Monument
+depend: [WorldEdit, WorldGuard]
+commands:
+  mon:
+    description: Main Monuments command
+    aliases: monuments
+    permission: mon.cmd
